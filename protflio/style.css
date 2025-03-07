@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: blue;
+}
+header{
+    border-bottom: 1px solid rgb(230, 230, 230);
+    box-shadow: 1px 3px 3px rgb(230, 230, 230);
+}
+
+.container-fluid{
+    padding: 0px;
+}
+
+.name{
+    font-size: larger;
+    font-weight: bold; 
+}
+
+.nav{
+    width: 100%;
+    padding: 16px 10px 16px 10px;
+    border-top: 1px solid rgb(230, 230, 230);
+    box-shadow: 5px 1px 5px rgb(230, 230, 230);
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-link{
+    font-weight: bold;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+
+.resume{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.head{
+    margin: 0px 10px 0px 10px;
+    width: 100%; 
+    display:flex ;
+    justify-content: space-between;  
+}
+
+.pic{
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: 50px;
+    width: 350px;
+    height: 350px;
+}
+.pics{
+    display: flex;
+    justify-content: center;
+}
+
+.links{
+    margin: 10px 100px 5px 100px;
+    display: flex;
+    justify-content: space-around ;
+}
+.more{
+    background-color: white;
+    padding: 10px;
+}
+
+.one{
+    
+    margin: 70px 5px 10px 5px;
+    padding: 25px 10px 10px 10px;
+    /* border: 1px solid  rgb(230, 230, 230); */
+    /* border-radius: 50px; */
+    /* box-shadow: 1px 5px 5px rgb(230, 230, 230); */
+}
+.oneone{
+    flex-wrap: wrap-reverse;
+}
+
+.two{
+    margin: 0px 5px 10px 5px;
+    padding: 25px 10px 10px 10px;
+    border: 1px solid  rgb(230, 230, 230);
+    /* border-radius: 50px; */
+    box-shadow: 1px 5px 5px rgb(230, 230, 230);
+}
+
+.three{
+    margin: 0px 5px 10px 5px;
+    padding: 25px 10px 10px 10px;
+}
+.four{
+    margin: 0px 5px 60px 5px;
+    padding: 25px 10px 10px 25px;
+}
+
+.five{
+    margin: 10px 5px 10px 5px;
+    padding: 0;
+    border: 1px solid  rgb(230, 230, 230);
+    /* border-radius: 50px; */
+    box-shadow: 1px 5px 5px rgb(230, 230, 230);
+}
+
+.six{
+    margin: 10px 5px 10px 5px;
+    padding: 0;
+}
+.summery{
+    padding: 10px 15px 10px 15px;
+    margin: 0px;
+    color: black;
+    text-align: justify;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    color: black;
+}
+
+.shortcuts{
+    text-decoration: none;
+}
+.note{
+    text-align: center;
+}
+.notes{
+    color: black;
+}
+.rights{
+    color: black;
+    text-align: center;
+}
+.dropdown-toggle::after{
+    content: none;
+}
